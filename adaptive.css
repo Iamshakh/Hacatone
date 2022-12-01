@@ -40,12 +40,20 @@
  .hobbie {
     width: 80% !important;
  }
+ .section {
+    margin: 0 -5px !important;
+}
+
 }
 
 @media all and (max-width: 376px) {
     .footer__message button{
         margin-left: 40%;
     }
+    .section {
+        margin: 0 -5px !important;
+    }
+
 }
 
 @media all and (max-width: 326px) {

@@ -1,0 +1,163 @@
+/* font-family: 'Fragment Mono', monospace;
+font-family: 'Pacifico', cursive; */
+/* font-family: 'Michroma', sans-serif; */
+body {
+    font-family:'Michroma', sans-serif ;
+   margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 5%;
+    border: 2px solid black;
+    border-top: 0px;
+}
+
+.header__logo {
+    font-family:'Fragment Mono', monospace ;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+
+.header__nav_list {
+    list-style-type: none;
+    display: flex;
+    column-gap: 15px;
+    margin-right: 30px;
+}
+
+.main {
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.main__img {
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-image: url(https://damion.club/uploads/posts/2022-09/1664251544_7-damion-club-p-oboi-na-aipad-v-kletochku-instagram-8.png);
+}
+
+#my-photo {
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    
+
+}
+
+.main__img_icons {
+    display: flex;
+    justify-content: center;
+}
+
+#icon-1, #icon-2, #icon-3 {
+    width: 20px;
+    height: 20px;
+    margin: 10%;
+}
+
+.main__about {
+    text-align: center;
+    width: 50%;
+    border: 2px solid black;
+    padding-top: 20px;
+    background-image: url(https://phonoteka.org/uploads/posts/2021-06/1624064908_58-phonoteka_org-p-belie-oboi-tekst-krasivo-58.jpg);
+}
+.main__about h2 {
+    margin-bottom: 90px;
+}
+
+.my-skills {
+    font-family: 'Fragment Mono', monospace;
+    font-size: 50px;
+    text-align: center;
+    margin: 10% 5%;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 5%;
+}
+
+.skill__html {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+   height: 10%;;
+}
+
+.skill__css {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 50%;
+}
+
+.section h2 {
+    transform: rotate(-90deg);
+    height:fit-content;
+}
+
+#img-95 {
+    width: 60%;
+}
+
+
+#img-90 {
+    width: 60%;
+}
+
+.education-hobbie {
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.education {
+    width: 40%;
+    border: 1px solid black;
+    padding: 3%;
+}
+
+.hobbie {
+    width: 40%;
+    border: 1px solid black;
+    padding: 3%;
+}
+
+.hobbie__section {
+    text-align: center;
+    margin-bottom: 10%;
+    font-weight: 900;
+}
+
+.hobbie div {
+    margin: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin: 5%;
+}
+
+.footer__call_contact span {
+    margin: 10px;
+}
+
+.footer__message input {
+    width: 40%;
+}
+
+

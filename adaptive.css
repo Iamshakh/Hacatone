@@ -1,0 +1,68 @@
+@media all and (max-width: 426px) {
+  .header__nav_list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header__logo {
+    height: 30px;
+    margin-top: 5%;
+  }
+
+  .main {
+    flex-wrap: wrap;
+  }
+
+  /* Ниже использовал !important, т.к. не мог перебить эти значения */
+
+  .main__about {
+    width: 80% !important;
+  }
+
+  .main__about h2 {
+    margin-bottom: 20px !important;
+  }
+
+   .main__img {
+    width: 80% !important;
+    margin-top: 30px;
+  }
+
+
+
+ .education-hobbie {
+    flex-wrap: wrap;
+ }
+ .education {
+    width: 80% !important;
+    margin-bottom: 3%;
+ }
+ .hobbie {
+    width: 80% !important;
+ }
+}
+
+@media all and (max-width: 376px) {
+    .footer__message button{
+        margin-left: 40%;
+    }
+}
+
+@media all and (max-width: 326px) {
+    .my-skills {
+        font-size: 40px !important;
+    }
+    .footer__message button {
+        margin-left: 50%;
+    }
+    .section {
+        margin: 0 -5px !important;
+    }
+
+    .footer__call_contact p {
+        font-size: 15px;
+    }
+}
+
+
+
